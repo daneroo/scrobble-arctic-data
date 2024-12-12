@@ -64,6 +64,9 @@ places:
       highlight the importance of monitoring permafrost degradation in this
       understudied  area since it has implications for both ecosystem health and
       local community.
+
+
+      Author: Loek Pascaud
   - id: 6
     name: Kitigaq Area Permafrost Degradation
     latitude: 69.2319
@@ -73,14 +76,15 @@ places:
       Pr. Frédéric Bouchard team from University of Sherbrooke is looking to
       asses  permafrost degradation in the Kitigaq region, based on water
       sampling and  erosion modeling.
+
+
+      Author: Gael Machemin
   - id: 7
     name: Campus Lavallée
     latitude: 45.466043
     longitude: -75.754984
     osm_id: '477197015'
-    description: |-
-      Research facility focusing on Arctic climate change.
-      Second Line.
+    description: Research facility focusing on Arctic climate change.
   - id: 8
     name: Mahahual Mangrove Research
     latitude: 18.7170436
@@ -117,10 +121,11 @@ places:
       indicators that drive climate change. The site will generate and enhance
       partnerships, not only with Canadian research centers and organizations,
       but also with international research partners and networks.
+
+
+      Author: Daniel Kramer
   - id: 10
-    name: >-
-      Microbial ecology of arctic lakes subjected to environmental changes
-      linked to global warming and human activity
+    name: Microbial Ecology of Arctic Lakes
     latitude: 74.4535
     longitude: -95.333
     osm_id: null
@@ -141,3 +146,6 @@ places:
       lake microbiomes. This will enable us to better anticipate changes linked
       to global warming in these ecosystems, and to develop future strategies
       for preventing or adapting to these changes.
+
+
+      Autors: Alex Abhaya, Catherine Girard, Milla Rautio
