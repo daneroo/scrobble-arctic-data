@@ -1,0 +1,40 @@
+name: Scrape latest arctic data
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: "1/20 * * * *"
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      # Get the stamp for the eventual commit message
+      - name: Get current date stamp
+        id: timestamp
+        run: echo "timestamp=$(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> "$GITHUB_OUTPUT"
+
+      - name: Setup deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Scrape Arctic Data
+        run: |
+          deno run -q --allow-read --allow-write --allow-run --allow-net --allow-env scrape.js
+
+      # see docs at https://github.com/stefanzweifel/git-auto-commit-action
+      - name: Commit back changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Latest arctic data ${{ steps.timestamp.outputs.timestamp }}
+          file_pattern: arctic-data.json arctic-formatted-data.json

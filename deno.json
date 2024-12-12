@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "scrape": "deno run -q --env-file=.env.local --allow-read --allow-write --allow-run --allow-net --allow-env scrape.js"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
