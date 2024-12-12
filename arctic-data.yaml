@@ -85,8 +85,8 @@ places:
       Author: Daniel Kramer
   - id: 10
     name: Microbial Ecology of Arctic Lakes
-    latitude: 74.4535
-    longitude: -95.333
+    latitude: 69.1738
+    longitude: -104.9182
     osm_id: null
     description: >-
       86% of the world's lakes are covered by ice for at least part of the year.
