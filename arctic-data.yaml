@@ -55,8 +55,8 @@ places:
       Author: Gael Machemin
   - id: 9
     name: MOACC
-    latitude: 69.71642
-    longitude: -105.22277
+    latitude: 69.1212632
+    longitude: -105.0396515
     osm_id: null
     description: >-
       The Multidisciplinary Observatory for Arctic Climate Change and Extreme
