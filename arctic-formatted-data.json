@@ -38,5 +38,13 @@
     "longitude": -104.7350834,
     "osm_id": null,
     "description": "Understanding the seasonal and habitat variation in nutritional quality of primary consumers \n\nAuthor: Thanuri KA"
+  },
+  {
+    "id": 12,
+    "name": "Cambridge Bay Microbiome Collection Site",
+    "latitude": 105,
+    "longitude": 69,
+    "osm_id": null,
+    "description": "Microbiome collection site for the discovery of novel microorganisms that can degrade contaminants in Arctic regions (e.g. Crude Oil, Diesel, etc)"
   }
 ]

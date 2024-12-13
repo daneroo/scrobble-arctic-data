@@ -119,3 +119,11 @@ places:
 
 
       Author: Thanuri KA
+  - id: 12
+    name: Cambridge Bay Microbiome Collection Site
+    latitude: 105
+    longitude: 69
+    osm_id: null
+    description: >-
+      Microbiome collection site for the discovery of novel microorganisms that
+      can degrade contaminants in Arctic regions (e.g. Crude Oil, Diesel, etc)
