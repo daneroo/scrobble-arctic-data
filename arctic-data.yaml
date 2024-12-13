@@ -121,8 +121,8 @@ places:
       Author: Thanuri KA
   - id: 12
     name: Cambridge Bay Microbiome Collection Site
-    latitude: 105
-    longitude: 69
+    latitude: 69.1169
+    longitude: -105.05
     osm_id: null
     description: >-
       Microbiome collection site for the discovery of novel microorganisms that
