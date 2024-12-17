@@ -46,5 +46,13 @@
     "longitude": -105.05,
     "osm_id": null,
     "description": "Microbiome collection site for the discovery of novel microorganisms that can degrade contaminants in Arctic regions (e.g. Crude Oil, Diesel, etc)"
+  },
+  {
+    "id": 13,
+    "name": "Kitikmeot Biting Insect Monitoring Program",
+    "latitude": 69.135009,
+    "longitude": -104.980113,
+    "osm_id": null,
+    "description": "This highly interdisciplinary program was created with the Ekaluktutiak Hunter-Trapper Organization (HTO) and the Kugluktuk HTO, located on Inuinnait Nuna (Central Canadian Arctic in Nunavut), to address local concerns about biting insects. Many people in the region have noticed changes in biting insect populations – for example, new insects arriving on the nuna (land) and more mosquitoes and biting flies for longer periods of time in the summer. Some species act as vectors of disease and are negatively impacting important wildlife such as tuktu (caribou), umingmak (muskoxen), and tingmiaq (birds). Local representatives requested a monitoring program to better understand risks and possible threats that biting insects pose. \n\nProject objectives:\n 1. Document biting insects that are present in the Kitikmeot region by combining Western scientific methods (historical records, academic publications, microscopy-based identification, DNA sequencing) and Inuit Qaujimajatuqangit (values system, expert local knowledge, traditional knowledge)\n2. Understand if numbers of species and life cycles are changing over time, which vectors are present, which insects are parasitizing which animals, which vectors are carrying which diseases, and if they pose threats or risks to humans, domesticated animals (dogs), and wildlife health (i.e. Detection of pathogenic organisms such as the legworm (Onchocerca cervipedis), which infect caribou and moose, in biting insects such as black flies/Simuliidae)\n3. Combine research efforts with knowledge about animals such as caribou and muskoxen to ensure a holistic understanding of biting insects.\n\n\n\n\n"
   }
 ]
