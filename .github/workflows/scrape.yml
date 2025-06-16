@@ -36,7 +36,7 @@ jobs:
 
       # see docs at https://github.com/stefanzweifel/git-auto-commit-action
       - name: Commit back changes
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: Latest arctic data ${{ steps.timestamp.outputs.timestamp }}
           file_pattern: arctic-data.json arctic-formatted-data.json arctic-data.yaml
